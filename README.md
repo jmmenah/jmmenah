@@ -1,1 +1,3 @@
-<div align="center"> <a href='https://github.com/jmmenah/github-stats/blob/master/generated/languages.svg'></a></div>
+<p align="center">
+	<img src="https://raw.githubusercontent.com/jmmenah/github-stats-transparent/output/generated/languages.svg">
+</p>
