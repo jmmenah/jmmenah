@@ -10,6 +10,6 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: jmmenah/metrics@latest
+      - uses: jmmenah/metrics@main
         with:
           token: ${{ secrets.METRICS_TOKEN }}
