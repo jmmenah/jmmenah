@@ -10,7 +10,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: jmmenah/metrics@main
+      - uses: lowlighter/metrics@lastest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
