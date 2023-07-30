@@ -16,10 +16,8 @@ jobs:
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           user: jmmenah
           template: classic
-          base: header, activity
+          base: header, metadata
           config_timezone: Europe/Madrid
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_ignored: postscript
@@ -36,6 +34,6 @@ jobs:
           plugin_wakatime: yes
           plugin_wakatime_days: 365
           plugin_wakatime_limit: 5
-          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_sections: time, projects,, languages, languages-graphs, editors, os
           plugin_wakatime_url: https://wakatime.com
           plugin_wakatime_user: current
