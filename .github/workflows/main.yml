@@ -16,7 +16,7 @@ jobs:
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           user: jmmenah
           template: classic
-          base: header, repositories
+          base: header, activity, community, repositories, metadata
           config_timezone: Europe/Madrid
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
