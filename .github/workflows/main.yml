@@ -20,7 +20,7 @@ jobs:
           config_timezone: Europe/Madrid
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
-          plugin_languages_ignored: postscript
+          plugin_languages_ignored: postscript,mathematica
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
           plugin_languages_details: percentage
